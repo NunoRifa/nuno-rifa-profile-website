@@ -1,9 +1,24 @@
+import background from "../../images/nuno-rifa_hero.png";
+import profile from "../../images/nuno-rifa_profile.jpg";
+
 import classes from "./Hero.module.css";
+
+import SocialMedia from "../UI/SocialMedia";
 
 const Hero = () => {
   return (
     <>
-      <h1>YOW THIS HERO</h1>
+      <div className={classes.background}>
+        <img src={background} alt="Background" />
+      </div>
+      <div className={classes.content}>
+        <div className={classes.profile}>
+          <img src={profile} alt="Profile" />
+        </div>
+        <h1>I'm Nuno Rigo Fadilah</h1>
+        <h4>Front-End Development</h4>
+        <SocialMedia />
+      </div>
     </>
   );
 };
