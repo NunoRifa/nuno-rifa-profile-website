@@ -1,3 +1,5 @@
+import MediaQuery from "react-responsive";
+
 import background from "../../images/nuno-rifa_hero.png";
 import profile from "../../images/nuno-rifa_profile.jpg";
 
@@ -9,7 +11,10 @@ import Navbar from "../navbar/Navbar";
 const Hero = () => {
   return (
     <>
-      <Navbar />
+      <MediaQuery maxWidth={425}></MediaQuery>
+      <MediaQuery minWidth={1024}>
+        <Navbar />
+      </MediaQuery>
       <div className={classes.background}>
         <img src={background} alt="Background" />
       </div>

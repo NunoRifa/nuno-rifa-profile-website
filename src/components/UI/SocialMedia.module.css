@@ -9,3 +9,10 @@
   width: 42px;
   height: 42px;
 }
+
+@media (max-width: 425px) {
+  .social-media img {
+    width: 24px;
+    height: 24px;
+  }
+}

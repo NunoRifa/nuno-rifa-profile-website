@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className={classes.title}>Nuno.</div>
         <div className={classes.menu}>
           {navbarList.map((items) => (
-            <a href="javascript:void(0)" key={items.id}>
+            <a href={items.url} key={items.id}>
               {items.name}
             </a>
           ))}
