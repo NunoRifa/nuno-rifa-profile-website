@@ -1,0 +1,39 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  position: fixed;
+  width: 70vw;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.navbar .title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar .menu {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1.5em;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid white;
+}

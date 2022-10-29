@@ -26,7 +26,7 @@ const SocialMedia = (props) => {
   return (
     <div className={classes["social-media"]}>
       {social.map((list) => (
-        <a href="javascript:void(0)">
+        <a href="javascript:void(0)" key={list.id}>
           <img src={list.url} alt={list.name} />
         </a>
       ))}
