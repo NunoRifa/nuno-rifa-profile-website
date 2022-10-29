@@ -51,3 +51,18 @@
   height: 28px;
   border-radius: 6px;
 }
+
+@media (max-width: 425px) {
+  .skill-list .flex {
+    gap: 0.5em;
+  }
+  .skill-list .flex span {
+    font-size: 14px;
+  }
+
+  .skill-list .list-icon img {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+  }
+}
