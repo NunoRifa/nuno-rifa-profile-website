@@ -18,6 +18,22 @@
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: red;
+  transition: width 0.3s;
+}
+
+.navbar .title:hover:after {
+  width: 100%;
 }
 
 .navbar .menu {
@@ -27,13 +43,21 @@
 }
 
 .menu a {
-  text-decoration: none;
   color: white;
   margin-left: 1.5em;
-  -webkit-transition: width 2s;
-  transition: width 2s;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.menu a:hover {
-  border-bottom: 2px solid white;
+.menu a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.menu a:hover::after {
+  width: 100%;
 }
