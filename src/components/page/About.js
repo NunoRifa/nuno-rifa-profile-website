@@ -11,7 +11,7 @@ const About = () => {
           <div className={classes["images-border"]} />
         </div>
         <div className={classes.content}>
-          <h3 className={classes.title}>About me</h3>
+          <h3>About me</h3>
           <h2>I'm Nuno Rigo Fadilah</h2>
           <p>
             Far far away, behind the word mountains, far from the countries

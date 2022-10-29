@@ -1,0 +1,7 @@
+.card {
+  display: block;
+  cursor: pointer;
+  background: #292c36;
+  padding: 0.5em 0.75em;
+  border-radius: 12px;
+}
