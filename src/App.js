@@ -1,9 +1,10 @@
 import "./App.css";
 
-import Hero from "./components/hero/Hero";
+import Portfolio from "./components/page/Portfolio";
 import About from "./components/page/About";
 import Skill from "./components/page/Skill";
 import Footer from "./components/UI/Footer";
+import Hero from "./components/hero/Hero";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Skill />
+      <Portfolio />
       <Footer />
     </>
   );

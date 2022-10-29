@@ -1,0 +1,58 @@
+.portfolio {
+  margin-top: 8em;
+}
+
+.portfolio .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  max-width: 1100px;
+}
+
+.portfolio .images {
+  max-width: 380px;
+  max-height: 283px;
+  overflow: hidden;
+}
+
+.portfolio .images img {
+  width: 100%;
+  height: 283px;
+  object-fit: cover;
+}
+
+.portfolio .content .content-images {
+  padding: 0.75em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.25em;
+}
+
+.content-images .name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.content-images .btn {
+  background: #558fff;
+  padding: 0.65em 1em;
+  border-radius: 6px;
+}
+
+.content-images a.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 425px) {
+  .portfolio .images {
+    max-width: 100%;
+    max-height: 220px;
+  }
+}
