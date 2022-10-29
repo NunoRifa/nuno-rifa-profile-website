@@ -4,18 +4,32 @@ import facebook from "../../images/nuno-rifa_facebook.svg";
 
 import classes from "./SocialMedia.module.css";
 
-const SocialMedia = () => {
+const SocialMedia = (props) => {
+  let social = [
+    {
+      id: "1",
+      name: "Instagram",
+      url: instagram,
+    },
+    {
+      id: "2",
+      name: "Facebook",
+      url: facebook,
+    },
+    {
+      id: "3",
+      name: "Github",
+      url: github,
+    },
+  ];
+
   return (
     <div className={classes["social-media"]}>
-      <a href="javascript:void(0)">
-        <img src={instagram} alt="Instagram" />
-      </a>
-      <a href="javascript:void(0)">
-        <img src={facebook} alt="Facebook" />
-      </a>
-      <a href="javascript:void(0)">
-        <img src={github} alt="Github" />
-      </a>
+      {social.map((list) => (
+        <a href="javascript:void(0)">
+          <img src={list.url} alt={list.name} />
+        </a>
+      ))}
     </div>
   );
 };
