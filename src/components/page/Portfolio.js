@@ -41,6 +41,10 @@ const Portfolio = () => {
             </div>
             <div className={classes["content-images"]}>
               <div className={classes.name}>{items.name}</div>
+              <span>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </span>
               <a href={items.url} target="_blank" className={classes.btn}>
                 View Website
               </a>
