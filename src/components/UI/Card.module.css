@@ -1,7 +1,26 @@
 .card {
-  display: block;
+  display: inline-block;
   cursor: pointer;
   background: #292c36;
   padding: 0.5em 0.75em;
   border-radius: 12px;
+  background: -webkit-gradient(
+    linear,
+    left,
+    right,
+    color-stop(50%, #292c36),
+    color-stop(50%, #4c70ef)
+  );
+  background: -webkit-linear-gradient(left, #292c36 50%, #4c70ef 50%);
+  background: -moz-linear-gradient(left, #292c36 50%, #4c70ef 50%);
+  background: linear-gradient(to right, #292c36 50%, #4c70ef 50%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  -webkit-transition: background-position 0.3s ease-out;
+  -moz-transition: background-position 0.3s ease-out;
+  transition: background-position 0.3s ease-out;
+}
+
+.card:hover {
+  background-position: -100% 0;
 }
