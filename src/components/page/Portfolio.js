@@ -1,5 +1,6 @@
 import shayna from "../../images/Project/nuno-rifa_shayna.png";
 import giripermataindo from "../../images/Project/nuno-rifa_giripermataindo.jpg";
+import cantikid from "../../images/Project/nuno-rifa_cantikid.png";
 import onProgress from "../../images/Project/nuno-rifa_onporgress.png";
 
 import classes from "./Portfolio.module.css";
@@ -20,6 +21,12 @@ const Portfolio = () => {
       name: "PT. Giri Permata Indo",
       url: "https://giripermataindo.com/",
       images: giripermataindo,
+    },
+    {
+      id: 3,
+      name: "CantikID",
+      url: "https://www.cantikid.com/",
+      images: cantikid,
     },
   ];
 

@@ -7,20 +7,21 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5em;
+  gap: 1em;
   max-width: 1100px;
 }
 
 .portfolio .images {
-  max-width: 380px;
-  max-height: 283px;
+  max-width: 280px;
+  max-height: 183px;
   overflow: hidden;
 }
 
 .portfolio .images img {
-  width: 100%;
+  width: 280px;
   height: 283px;
   object-fit: cover;
+  object-position: left;
 }
 
 .portfolio .content .content-images {
@@ -35,6 +36,7 @@
 .content-images .name {
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 0.5em;
 }
 
 .content-images .btn {

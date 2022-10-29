@@ -1,0 +1,37 @@
+.contact {
+  margin-top: 6em;
+  max-width: 70%;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 5em;
+}
+
+.contact .content span {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.contact .btn {
+  background: #558fff;
+  padding: 0.65em 1em;
+  border-radius: 6px;
+  margin-top: 2em;
+}
+
+.contact a.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 425px) {
+  .contact .content {
+    padding: 1em 2em;
+  }
+}
