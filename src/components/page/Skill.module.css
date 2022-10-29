@@ -2,18 +2,6 @@
   margin-top: 10em;
 }
 
-.skill h2 {
-  font-size: 36px;
-  font-weight: 500;
-}
-
-.skill h3 {
-  font-size: 24px;
-  color: #4c70ef;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
 .skill .content {
   display: flex;
   flex-direction: column;
@@ -34,7 +22,12 @@
 .skill-list .flex {
   display: flex;
   align-items: center;
-  gap: 0.75em;
+  gap: 0.5em;
+}
+
+.skill-list .flex span {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .skill-list .list-icon {
@@ -56,6 +49,7 @@
   .skill-list .flex {
     gap: 0.5em;
   }
+
   .skill-list .flex span {
     font-size: 14px;
   }

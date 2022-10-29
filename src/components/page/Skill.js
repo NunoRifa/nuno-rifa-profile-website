@@ -10,6 +10,7 @@ import git from "../../images/Icon/git.svg";
 import classes from "./Skill.module.css";
 
 import Card from "../UI/Card";
+import Title from "../UI/Title";
 
 const Skill = () => {
   let skill = [
@@ -56,11 +57,8 @@ const Skill = () => {
   ];
 
   return (
-    <section id="skill" className={classes.skill}>
-      <div className={classes.content}>
-        <h3>What are my Skills</h3>
-        <h2>Skills</h2>
-      </div>
+    <section id="skills" className={classes.skill}>
+      <Title sub="What are my Skills" title="Skills" />
       <div className={classes["skill-list"]}>
         {skill.map((list) => (
           <Card key={list.id}>
