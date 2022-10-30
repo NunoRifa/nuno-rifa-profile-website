@@ -17,7 +17,7 @@ const Portfolio = () => {
       url: "https://nunorifa-shayna.herokuapp.com/",
       images: shayna,
       description:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+        "Serves clothing purchases online and can make digital payments.",
       langguage: [
         {
           id: 1,
@@ -59,7 +59,7 @@ const Portfolio = () => {
       url: "https://giripermataindo.com/",
       images: giripermataindo,
       description:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+        "Display company details or business profiles, to make it easier for people to get company-related information.",
       langguage: [
         {
           id: 1,
@@ -85,7 +85,7 @@ const Portfolio = () => {
       url: "https://www.cantikid.com/",
       images: cantikid,
       description:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+        "Serving barbershop orders, ordering beauty salons, ordering treatments, selling beauty products and online beauty consulting services with expert doctors.",
       langguage: [
         {
           id: 1,
