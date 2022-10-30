@@ -8,7 +8,7 @@ const Contact = () => {
       <CardContact>
         <div className={classes.content}>
           <span>Have any project in mind ?</span>
-          <a href="javascript:void(0)" className={classes.btn}>
+          <a href="https://wa.me/628873997777" className={classes.btn}>
             Contact me
           </a>
         </div>
