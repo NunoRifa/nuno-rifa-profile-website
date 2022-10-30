@@ -9,22 +9,22 @@ const About = () => {
       <div className={classes["control-about"]}>
         <div className={classes.images}>
           <img src={about} alt="About" />
-          <div className={classes["images-border"]} />
         </div>
         <div className={classes.content}>
           <h3>About me</h3>
           <h2>I'm Nuno Rigo Fadilah</h2>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
+            ​Hello! My name is Nuno and I am currently working as a Front End
+            Website Developer at Solusi Kecantikan Digital Indonesia (CantikID).
+            I graduated from High School in 2020 with LSP Certificate from BNSP
+            (Badan Nasional Sertifikasi Profesi) and Fullstack Laravel & VueJS
+            from online course (Build with Angga)
           </p>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
+            I'm interested to Front End Develoer and i'm interested to explore
+            and dedicated to developing software using modern Javascript
+            technology. Below you can find my portfolio highlighting some of my
+            game development work.
           </p>
         </div>
       </div>
