@@ -15,9 +15,15 @@ const Hero = () => {
       <MediaQuery minWidth={1024}>
         <Navbar />
       </MediaQuery>
-      <div className={classes.background}>
-        <img src={background} alt="Background" />
-      </div>
+      <div
+        className={classes.background}
+        style={{
+          background: `url(${background})`,
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      />
       <div className={classes.content}>
         <div className={classes.profile}>
           <img src={profile} alt="Profile" />
