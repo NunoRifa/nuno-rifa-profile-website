@@ -1,4 +1,4 @@
-import about from "../../images/nuno-rifa_about.png";
+import about from "../../images/nuno-rifa_about.jpg";
 import Title from "../UI/Title";
 
 import classes from "./About.module.css";
@@ -9,6 +9,7 @@ const About = () => {
       <div className={classes["control-about"]}>
         <div className={classes.images}>
           <img src={about} alt="About" />
+          <div className={classes["images-border"]} />
         </div>
         <div className={classes.content}>
           <h3>About me</h3>
