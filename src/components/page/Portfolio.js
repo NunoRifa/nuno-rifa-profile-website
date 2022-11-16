@@ -1,7 +1,6 @@
 import shayna from "../../images/Project/nuno-rifa_shayna.png";
 import giripermataindo from "../../images/Project/nuno-rifa_giripermataindo.jpg";
 import cantikid from "../../images/Project/nuno-rifa_cantikid.png";
-import onProgress from "../../images/Project/nuno-rifa_onporgress.png";
 
 import classes from "./Portfolio.module.css";
 
@@ -132,7 +131,12 @@ const Portfolio = () => {
                 ))}
               </div>
               <span>{items.description}</span>
-              <a href={items.url} target="_blank" className={classes.btn}>
+              <a
+                href={items.url}
+                target="_blank"
+                rel="noreferrer"
+                className={classes.btn}
+              >
                 View Website
               </a>
             </div>

@@ -1,5 +1,4 @@
 import about from "../../images/nuno-rifa_about.jpg";
-import Title from "../UI/Title";
 
 import classes from "./About.module.css";
 
