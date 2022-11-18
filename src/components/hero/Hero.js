@@ -1,6 +1,5 @@
 import MediaQuery from "react-responsive";
 
-import background from "../../images/nuno-rifa_hero.png";
 import profile from "../../images/nuno-rifa_profile.jpg";
 
 import classes from "./Hero.module.css";
@@ -15,15 +14,7 @@ const Hero = () => {
       <MediaQuery minWidth={1024}>
         <Navbar />
       </MediaQuery>
-      <div
-        className={classes.background}
-        style={{
-          background: `url(${background})`,
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      />
+      <div className={classes.background} />
       <div className={classes.content}>
         <div className={classes.profile}>
           <img src={profile} alt="Profile" />
